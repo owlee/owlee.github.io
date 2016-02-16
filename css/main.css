@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     background: none;
 }
 /* ==========================================================================
-  Layout 
+  Layout
    ========================================================================== */
 
 #page-welcome {
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
 }
 /* ==========================================================================
-   Portfolio   
+   Portfolio
    ========================================================================== */
 
 #grid-controls-wrapper {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .isotope, .isotope .isotope-item {
     /* change duration value to whatever you like */
-    
+
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -ms-transition-duration: 0.8s;
@@ -227,14 +227,14 @@ h1, h2, h3, h4, h5, h6 {
 .vegas-overlay {
     background: transparent url(../img/overlays/16.png);
     opacity: 0.5;
-    
+
 }
 .vegas-background {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
     max-width: none !important;
     /* counteracts global img modification by twitter bootstrap library */
-    
+
     z-index: -2;
 }
 .vegas-overlay, .vegas-background {
@@ -385,7 +385,7 @@ label.valid {
   padding: 4px 18px;
 }
 /* ==========================================================================
-   Charts   
+   Charts
    ========================================================================== */
 
 .chart {
