@@ -1,432 +1,830 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+  <!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>
+    <html class="no-js lt-ie9"> <![endif]-->
+      <!--[if gt IE 8]><!-->
+        <html class="no-js">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Oscar Lee</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
+        <!--<![endif]-->
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>Oscar Lee</title>
+          <meta name="description" content="">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Fonts from Font Awsome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Magnific popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- Vegas slider -->
-    <link rel="stylesheet" href="css/vegas.min.css">
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/main.css">
+          <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- Color styles -->
-    <link rel="stylesheet" href="css/colors/blue.css">
-    <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
-    <!-- <link rel="stylesheet" href="css/colors/red.css">-->
-    <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
-    <!--  <link rel="stylesheet" href="css/colors/orange.css">-->
-    <!--  <link rel="stylesheet" href="css/colors/green.css">-->
+          <!-- Bootstrap core CSS -->
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <!-- Fonts from Font Awsome -->
+          <link rel="stylesheet" href="css/font-awesome.min.css">
+          <!-- Magnific popup -->
+          <link rel="stylesheet" href="css/magnific-popup.css">
+          <!-- Vegas slider -->
+          <link rel="stylesheet" href="css/vegas.min.css">
+          <!-- Custom styles for this template -->
+          <link rel="stylesheet" href="css/main.css">
 
-    <!-- Feature detection -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic'
-          rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+          <!-- Color styles -->
+          <link rel="stylesheet" href="css/colors/blue.css">
+          <!-- <link rel="stylesheet" href="css/colors/yellow.css">-->
+          <!-- <link rel="stylesheet" href="css/colors/red.css">-->
+          <!--  <link rel="stylesheet" href="css/colors/purple.css">-->
+          <!--  <link rel="stylesheet" href="css/colors/orange.css">-->
+          <!--  <link rel="stylesheet" href="css/colors/green.css">-->
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-</head>
+          <!-- Feature detection -->
+          <script src="js/modernizr-2.6.2.min.js"></script>
+          <!-- Fonts -->
+          <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic'
+                  rel='stylesheet' type='text/css'>
+          <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
 
-<body>
-<div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav" id="main-menu">
-                <li><a href="#page-welcome">Home</a>
-                </li>
-                <li><a href="#page-profile">Profile</a>
-                </li>
-                <li><a href="#page-skills">Skills</a>
-                </li>
-                <li><a href="#page-education">Education</a>
-                </li>
-                <li><a href="#page-experience">Experience</a>
-                </li>
-                <li><a href="#page-contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</div>
-<!-- welcome begins -->
-<section id="page-welcome" class="page-welcome">
-    <div>
-        <ul class="slider-controls">
-            <li>
-                <a id="vegas-next" class="next" href="javascript:void(0)"></a>
-            </li>
-            <li>
-                <a id="vegas-prev" class="prev" href="javascript:void(0)"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="row">
-            <header class="centered">
-                <h1>Oscar Lee</h1>
-                <p>Student, Rails Developer, and Dancer</p>
-            </header>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/oscar-lee-47483a36" class="btn btn-round btn-clear btn-linkedin"><i
-                        class="fa fa-linkedin-square"></i></a>
-                <a href="https://www.github.com/owlee" class="btn btn-round btn-clear btn-pinterest"><i
-                        class="fa fa-github"></i></a>
+          <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+          <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+          <![endif]-->
+        </head>
+
+        <body>
+          <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" id="main-menu">
+                  <li><a href="#page-welcome">Home</a>
+                  </li>
+                  <li><a href="#page-profile">Profile</a>
+                  </li>
+                  <li><a href="#page-skills">Skills</a>
+                  </li>
+                  <li><a href="#page-demo">Demos</a>
+                  </li>
+                  <li><a href="#page-education">Education</a>
+                  </li>
+                  <li><a href="#page-work-experience">Work Experience</a>
+                  </li>
+                  <li><a href="#page-project-experience">Project Experience</a>
+                  </li>
+                  <li><a href="#page-contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
             </div>
-            <a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>
-        </div>
-    </div>
-</section>
-<!-- welcome ends -->
-<!-- profile begins -->
-<section id="page-profile" class="page-profile">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="section-title">About Me</h2>
-            <div class="spacer"></div>
-            <p class="section-subtitle">Hello World! </p>
-        </header>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="profile"><img src="img/profile.png" alt="profile"/>
+          </div>
+          <!-- welcome begins -->
+          <section id="page-welcome" class="page-welcome">
+            <div>
+              <ul class="slider-controls">
+                <li>
+                  <a id="vegas-next" class="next" href="javascript:void(0)"></a>
+                </li>
+                <li>
+                  <a id="vegas-prev" class="prev" href="javascript:void(0)"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="container">
+              <div class="row">
+                <header class="centered">
+                  <h1>Oscar W Lee</h1>
+                  <p style="font-size: 20px;">Computer Systems Engineer</br>Ruby on Rails Developer</br>Dancer</p>
+                </header>
+                <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/oscar-lee-47483a36" class="btn btn-round btn-clear btn-linkedin"><i
+                                                                           class="fa fa-linkedin-square"></i></a>
+                  <a href="https://www.github.com/owlee" class="btn btn-round btn-clear btn-pinterest"><i
+                                                         class="fa fa-github"></i></a>
                 </div>
+                <a href="#page-contact" class="btn btn-default hire-me">Contact Me</a>
+              </div>
             </div>
-            <div class="col-md-9">
-                <p>
-                    Oscar Lee is an undergraduate at University of Massachusetts Amherst, class of 2017.
-                    Also, an alumnus at the venerable Boston Latin School, the first public school in America at 1635.
-                </p>
-                <p>
-                    He is currently studying for a Bachelor of Science in Computer Systems Engineering.
-                    Currently, he work for UMass Parking Services as a programmer doing full stack work in developing a
-                    user friendly application and delivering
-                    a simple but powerful aggregation of parking data for the on campus police and customers.
-                    For fun, he loves to dance, and sometimes, you might catch him at a breakdancing competition in New
-                    England.
-                    On the side, he's recently started some contract work with Ruby on Rails Development, building an
-                    online store presence for his client.
-                </p>
-                <p>
-                    Through his experiences, he has adapted himself to problem solving demeanor and a result oriented
-                    mindset.
-                    He is a student of life, and cherishes any experience as a learning experience.
-                    His interests lie in the use and understanding of everyday technologies to create new and adaptable
-                    solutions to everyday problems.
-                </p>
+          </section>
+          <!-- welcome ends -->
+          <!-- profile begins -->
+          <section id="page-profile" class="page-profile">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle">Hello World! </p>
+              </header>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="profile"><img src="img/profile.png" alt="profile"/>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <p>
+                  Oscar Lee is an undergraduate at University of Massachusetts Amherst, class of 2017.
+                  Also, an alumnus at the venerable Boston Latin School, the first public school in America at 1635.
+                  </p>
+                  <p>
+                  He is currently studying for a Bachelor of Science in Computer Systems Engineering.
+                  Currently, he work for UMass Parking Services as a programmer doing full stack work in developing a
+                  user friendly application and delivering
+                  a simple but powerful aggregation of parking data for the on campus police and customers.
+                  For fun, he loves to dance, and sometimes, you might catch him at a breakdancing competition in New
+                  England.
+                  On the side, he's recently started some contract work with Ruby on Rails Development, building an
+                  online store presence for his client.
+                  </p>
+                  <p>
+                  Through his experiences, he has adapted himself to problem solving demeanor and a result oriented
+                  mindset.
+                  He is a student of life, and cherishes any experience as a learning experience.
+                  His interests lie in the use and understanding of everyday technologies to create new and adaptable
+                  solutions to everyday problems.
+                  </p>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- profile ends -->
-<!-- skills begins -->
-<section id="page-skills" class="page-skills">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="section-title"><span>Skills</span></h2>
-            <div class="spacer"></div>
-            <p class="section-subtitle">"How are you with..." </p>
-        </header>
-        <div class="row">
-            <div class="col-md-2">
-                    <span class="chart" data-percent="80">
-                      <span class="percent"></span>
-                    <h3>Ruby (on Rails)?</h3>
-                        <p>Ruby on Rails, MVC methodology, Sinatra, API, AWS, and full stack interactions</p>
-                    </span>
-            </div>
-            <div class="col-md-2 ">
-                    <span class="chart" data-percent="70">
-                      <span class="percent"></span>
-                    <h3>CSS/HTML?</h3>
-                        <p>Rails/Struts 2 framework, bootstrap, and creating from scratch</p>
-                    </span>
-            </div>
-            <div class="col-md-2">
-                    <span class="chart" data-percent="60">
-                      <span class="percent"></span>
-                    <h3>SQL?</h3>
-                        <p>postgres/MariaDB work, retrieving organized data tables</p>
-                    </span>
-            </div>
-            <div class="col-md-2">
-                    <span class="chart" data-percent="60">
-                      <span class="percent"></span>
-                    <h3>Java?</h3>
-                        <p>Data structures level, and worked with some Struts 2/MVC methodology</p>
-                    </span>
-            </div>
-            <div class="col-md-2">
-                    <span class="chart" data-percent="50">
-                      <span class="percent"></span>
-                    <h3>C/C++?</h3>
-                        <p>Creating code for class, check github for coding experience</p>
-                    </span>
-            </div>
-            <div class="col-md-2">
-                    <span class="chart" data-percent="20">
-                      <span class="percent"></span>
-                    <h3>Javascript?</h3>
-                        <p>Syntax, and adding simple functions</p>
-                    </span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                    <span class="chart" data-percent="40">
-                      <span class="percent"></span>
-                    <h3>Python?</h3>
-                        <p>Syntax, and coding for school</p>
-                    </span>
-            </div>
-            <div class="col-md-2">
-                    <span class="chart" data-percent="50">
-                      <span class="percent"></span>
-                    <h3>Photoshop?</h3>
-                        <p>Product enhancement, and vector manipulation</p>
-                    </span>
-            </div>
+          </section>
+          <!-- profile ends -->
+          <!-- skills begins -->
+          <section id="page-skills" class="page-skills">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title"><span>Skills</span></h2>
+                <div class="spacer"></div>
+              </header>
 
-        </div>
-    </div>
-</section>
-<!-- skills ends -->
-<!-- education begins -->
-<section id="page-education" class="page-education">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="section-title"><span>Education</span></h2>
-            <div class="spacer"></div>
-            <p class="section-subtitle"></p>
-        </header>
-        <div class="row">
-            <div class="col-md-6">
-                <article class="education">
-                    <header>
-                        <h3>University of Massachusetts Amherst</h3>
-                        <p>Bachelor of Science in Computer Sysetms Engineering - class of 2017</p>
-                    </header>
-                </article>
-            </div>
-            <div class="col-md-6">
-                <article class="education">
-                    <header>
-                        <h3>Boston Latin School</h3>
-                        <p>The first public school in America, teaches a classical curriculum including Latin along
-                            with new sciences. </p>
-                    </header>
-                </article>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- education ends -->
-<!-- experience begins -->
-<section id="page-experience" class="page-experience">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="section-title"><span>Experience</span></h2>
-            <div class="spacer"></div>
-            <p class="section-subtitle"></p>
-        </header>
-        <div class="row">
-            <div class="col-md-6">
-                <article class="experience">
-                    <header>
-                        <h3>UMass Parking Services</h3>
-                        <p>Programmer / Amherst, MA / 2015 - Current</p>
-                    </header>
-                    <p>
-                        Oscar programs with Ruby on Rails and other technologies within the stack.
-                        The team regularly communicates with daily git collaborations, weekly code reviews, and daily
-                        stand ups.
-                    </p>
-                    <o>
-                        Oscar has contributed in building a Sinatra application, which allows departments at UMass to
-                        order permits online.
-                        He designed the frontend and also created a notification to Parking management in cases of
-                        overcapacity.
-                    </o>
-                    <p>
-                        Oscar built an internal log to communicate between Parking police and front desk staff.
-                        This includes creating a friendly user experience that allows the less tech savvy and police on
-                        the field to use with ease.
-                    </p>
-                </article>
-            </div>
-            <div class="col-md-6">
-                <article class="experience">
-                    <header>
-                        <h3>Contract work for Peabody Vapors</h3>
-                        <p>Full Stack Developer / Peabody, MA / 2016 - Current</p>
-                    </header>
-                    <p>
-                        ** Please contact Oscar if you want access to his private Git repo on this project **
-                        Oscar works on the side for building an online store for a client from Peabody, MA.
-                        This calls for understanding the full stack of setting up an online store from ground up.
-                    </p>
-                    <p>
-                        Oscar has currently worked with organizing business models with the client.
-                        This includes the necessary hosts and APIs needed to represent the business logic.
-                        He is working with technologies like AWS, infrastructure as a service (DigitalOceans), APIs like
-                        facebook signup and
-                        Authorize.net payment gateways, etc.
-                    </p>
-                    <p>
-                        He has currently created a front page and some backend models for the client.
-                    </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <article class="experience">
-                    <header>
-                        <h3>State Street Bank & Trust Co.</h3>
-                        <p>IT Intern / Boston, MA / Summer 2012</p>
-                    </header>
-                    <p>
-                        Oscar created scripts with Autohotkey and bash to compile and review security reports for
-                        cross-transactions between the Federal Reserve and the U.S. treasury.
-                    </p>
-                    <p>
-                        He was trained in Bloomberg Terminal and Excel to generate professional and organized datasheets
-                        for filing securities and reports.
-                    </p>
-                </article>
-            </div>
-            <div class="col-md-6">
-                <article>
-                    <header>
-                        <h3>Boston College</h3>
-                        <p>Cores System Assistant / Boston, Ma / Summer 2011</p>
-                    </header>
-                    <p>
-                        Oscar worked in the IT department to perform backend duties of communicating and solving
-                        technical
-                        problems between departments.
-                    </p>
-                    <p>
-                        Coded a Diploma web applet for the college’s Agora portal through Struts 2 and Java.
-                    </p>
-                    <p>
-                        Contributed to compiling manuals for installation and debugging of development applications
-                        Linux systems like Ubuntu & Debian.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- experience ends -->
-<!-- contact begins -->
-<section id="page-contact" class="page-contact">
-    <div class="container">
-        <header class="section-header">
-            <h2 class="section-title"><span>Contact</span></h2>
-            <div class="spacer"></div>
-            <p class="section-subtitle">Feel free to message me for access if you would like to see my private Git
-                Projects. </p>
-        </header>
-        <div class="row">
-            <div class="col-sm-5 contact-info">
-                <h3>Contact Info</h3>
-                <p><i class="fa fa-map-marker"></i> Boston, MA </p>
-                <p><i class="fa fa-phone"></i> 617-866-9081 </p>
-                <p><i class="fa fa-envelope-o"></i> owlee@umass.edu </p>
-            </div>
+              <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <h3 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Web Development<small>+</small>
+                      </a>
+                    </h3>
+                  </div>
 
-            <div class="col-sm-7">
-                <h3>Get in Touch</h3>
-                <!-- Configure the contact form by adding your email address on mail/contact_me.php line 17 -->
-                <form class="form-horizontal" id="contactForm" novalidate>
-                    <div class="control-group">
-                        <label class="control-label" for="name">Name</label>
-                        <div class="controls">
-                            <input type="text" name="name" id="name" placeholder="Your name"
-                                   class="form-control input-lg" required
-                                   data-validation-required-message="Please enter your name.">
-                            <p class="help-block text-danger"></p>
+                  <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-block">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Ruby <span class="badge">2yr</span></h3>
+                              <p>Scripts, Ruby on Rails dev, API interactions, etc</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>(Ruby on) Rails <span class="badge">2yr</span></h3>
+                              <p>Some Rails 5, Rails 4, implemented consumer apps</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>HTML/CSS <span class="badge">3yr</span></h3>
+                              <p>Single page sites, User friendliness</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>MariaDB/Postgres <span class="badge">2yr</span></h3>
+                              <p>Mainly MariaDB, postgres for Linux Host/Heroku</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Sinatra</h3>
+                              <p>Some experience, built a compact app for ordering parking passes</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Javascript/JQuery <span class="badge">2yr</span></h3>
+                              <p>Used in Rails apps and single page sites</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Git/SVN <span class="badge">2yr</span></h3>
+                              <p>Version control experience</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>API/Web Services <span class="badge">2yr</span></h3>
+                              <p>Project/work experience, some WSDL with vendors like T2systems, some AWS</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>RSpec <span class="badge">2yr</span></h3>
+                              <p>Tested/Increased coverage of work applications. Used Travis/Code Climate</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Java <span class="badge">4yr</span></h3>
+                              <p>Adequate experience in building apps</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Struts 2 <span class="badge">1yr</span></h3>
+                              <p>Some testing experience with Java powered web applications</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Nginx/Apache <span class="badge">1yr</span></h3>
+                              <p>Adquate experience with configuring/deploying production, some capistrano exp.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingTwo">
+                    <h3 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Coursework<small>+</small>
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>C/C++ <span class="badge">2yr</span></h3>
+                              <p>Controlled hardware peripherals and created functionalities</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Python <span class="badge">1yr</span></h3>
+                              <p>Startup scripts and quick examples</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Arduino/Raspberry Pi</h3>
+                              <p>Interacted with hardware components</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>VLSI</h3>
+                              <p>Designed from simple gates to Torus networks</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Verilog</h3>
+                              <p>Designed asynchronous/synchronous code for hardware</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Circuit Design</h3>
+                              <p>Created electrical components from schematics</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Algorithms</h3>
+                              <p>Mainly coursework experience</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>OpenGL</h3>
+                              <p>Mainly coursework experience</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" role="tab" id="headingThree">
+                    <h3 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        Other Tech Skills<small>+</small>
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="card-block">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Windows</h3>
+                              <p>Eclipse IDE</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Linux</h3>
+                              <p>Ubuntu, Redhat, Mint, and some Slack</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Mac</h3>
+                              <p>Some xcode and Rubymine</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="col-lg-4">
+                              <h3>Photoshop/Illustrator CS6</h3>
+                              <p>Solely designed logos/product images for websites</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Photography</h3>
+                              <p>Amateur Experience for product photos</p>
+                            </td>
+                            <td class="col-lg-4">
+                              <h3>Vim <span class="badge">2yr</span></h3>
+                              <p>Main development environment.</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- skills ends -->
+            <!-- DEMO begins -->
+            <section id="page-demo" class="page-demo">
+              <div class="container">
+                <header class="section-header">
+                  <h2 class="section-title"><span>Demos</span></h2>
+                  <div class="spacer"></div>
+                  <p class="section-subtitle">"Hobby and Work Apps"</p>
+                </header>
+                <div class="row">
+                  <table>
+                    <tr>
+                      <td class="col-lg-6">
+                        <div class="portfolio"><img src="img/portfolio/probable.png" alt="profile"/></div>
+                        <div class="text-center">
+                          <h3>Golf Cart Application</h3>
                         </div>
+                      </td>
+                      <td class="col-lg-6">
+                        <div class="portfolio"><img src="img/portfolio/Emota.png" alt="profile"/></div>
+                        <div class="text-center">
+                          <h3>Emota</h3>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6">
+                        <div class="text-center">
+                          <p>A beta version of a Golf cart rental application for Parking Services.
+                          This is implemented with interactions between inventory APIs, vendor application (T2Systems), and web servers,
+                          to create a transitional and clean separation between frontend and backend. The clients will start from UMass
+                          department admins to an eventual open public release.</p>
+                        </div>
+                      </td>
+                      <td class="col-lg-6">
+                        <div class="text-center">
+                          <p>Oscar's senior engineering design project website (designed by Oscar). The Autistic or people, with trouble discerning emotions, would
+                          wear an Emota camera discretely on the lapel. In conversations, feedback through Emota camera would be analyzed in AWS servers and return
+                          back to the Emota user with friendly score/rating (emoji) on the conversation's mood and emotion of the Emota user's conversation partner.
+                          Situationally, Emota notifies emergency contacts via SMS of sudden negative change in the conversation's mood.
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6 text-center">
+                        <a target="_blank" href="https://github.com/umts/probable-engine" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                        class="fa fa-github"></i></a>
+                      </td>
+                      <td class="col-lg-6 text-center">
+                        <a target="_blank" href="http://www.ecs.umass.edu/ece/sdp/sdp17/team08/" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                               class="fa fa-cloud"></i></a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                </br>
+                <div class="spacer"></div>
+                </br>
+                <div class="row">
+                  <table>
+                    <tr>
+                      <td class="col-lg-6">
+                        <div class="portfolio"><img src="img/portfolio/IgnArticles.png" alt="profile"/></div>
+                        <div class="text-center">
+                          <h3>Mock IGN Article sidebar</h3>
+                        </div>
+                      </td>
+                      <td class="col-lg-6">
+                        <div class="portfolio"><img src="img/portfolio/hard.png" alt="profile"/></div>
+                        <div class="text-center">
+                          <h3>Business Product Highlight for Client</h3>
+
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6">
+                        <p>For fun, Oscar drew up a dynamic sidebar populated by IGN articles. The sidebar is generated with Ruby on Rails and displays
+                        API interaction with IGN's API. The custom CSS and JS is stylized with a color palette similar to IGN.com. Moreover, the app
+                        is hosted on heroku and uses postgres to query and store API data.
+                        </p>
+
+                      </td>
+                      <td class="col-lg-6">
+                        <p>A single page for product highlighting requested by a client. The page is solely built with JS, HTML/CSS. The client wanted a clean,
+                        and straight forward page to advertise their product. The page is hosted on DigitalOcean with NGinx, moreover, is connected with a mail server.
+                        Oscar has experience with Virtual servers, domain configurations, linux, web hosting, and system configuration.
+                        </p>
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6 text-center">
+                        <a target="_blank" href="https://github.com/owlee/ancient-foo-arts" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                          class="fa fa-github"></i></a>
+                        <a target="_blank" href="http://ign-articles.herokuapp.com/" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                   class="fa fa-cloud"></i></a>                      </td>
+                      <td class="col-lg-6 text-center">
+                        <a target="_blank" href="http://hardejuice.com" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                      class="fa fa-cloud"></i></a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                </br>
+                <div class="spacer"></div>
+                </br>
+                <div class="row">
+                  <table>
+                    <tr>
+                      <td class="col-lg-6">
+                        <div class="portfolio"><img src="img/portfolio/HolidayApp.png" alt="profile"/></div>
+                        <div class="text-center">
+                          <h3>Holiday App</h3>
+                        </div>
+                      </td>
+                      <td class="col-lg-6">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6">
+                        <p>Oscar's first basic Ruby on Rails application. It displays important holidays by country and date for up to 30 years. Due to an outdated API, it is experiencing some errors with country code.
+                          However, functionality and features are present and displayed.
+                          </p>
+                      </td>
+                      <td class="col-lg-6">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="col-lg-6 text-center">
+                        <a target="_blank" href="https://github.com/owlee/holiday_date" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                        class="fa fa-github"></i></a>
+                          <a target="_blank" href="http://holidaycal.herokuapp.com/" class="btn btn-round btn-clear btn-pinterest" style="background-color: black"><i
+                                                                                                                                   class="fa fa-cloud"></i></a>
+                      </td>
+                      <td class="col-lg-6">
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </section>
+            <!-- Demo ends -->
+
+          <!-- education begins -->
+          <section id="page-education" class="page-education">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title"><span>Education</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+              </header>
+              <div class="row">
+                <div class="col-md-6">
+                  <article class="education">
+                    <header>
+                      <h3>University of Massachusetts Amherst</h3>
+                      <p>Bachelor of Science in Computer Sysetms Engineering - class of 2017</p>
+                    </header>
+                  </article>
+                </div>
+                <div class="col-md-6">
+                  <article class="education">
+                    <header>
+                      <h3>Boston Latin School</h3>
+                      <p>The first public school in America, teaches a classical curriculum including Latin along
+                      with new sciences. </p>
+                    </header>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- education ends -->
+          <!-- experience begins -->
+          <section id="page-work-experience" class="page-work-experience">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title"><span>Work Experience</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+              </header>
+              <table class="table table-striped table-hover">
+                <tbody>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article class="experience">
+                        <header>
+                          <h3>UMass Parking Services</h3>
+                          <p><i>Ruby on Rails  Develope r/ Amherst, MA / 2015 - Current</i></p>
+                        </header>
+                        <p>
+                        <ul>
+                          <li>
+                            manages and creates features in Ruby on Rails for Parking Services' internal application: Garage Closings, Meter Audits, Permit Holder SMS, and more.
+                          </li>
+                          </br>
+                          <li>
+                            created a single page, Parking Pass Creator (in Sinatra), which has allocated a few thousand permits to date (since Sept 15).
+                          </li>
+                          </br>
+                          <li>
+                            implemented an online forum between Parking Enforcements and Parking admins to log Parking issues.
+                          </li>
+                          </br>
+                          <li>
+                            currently building an open source golf cart and inventory check application for VIPs for public reservation.
+                          </li>
+                          </br>
+                          <li>
+                            daily standups and weekly code reviews, in addition to Git/Slack communication between team members
+                          </li>
+                          </br>
+                          <li>
+                            agile development with regular feedback from customers and internal administrators.
+                          </li>
+                          </br>
+                          <li>
+                            emphasizes user friendliness, dynamic single page apps/features with JS, JQuery, or Ajax and stylized with Bootstrap and custom CSS.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article class="experience">
+                        <header>
+                          <h3>State Street Bank & Trust Co.</h3>
+                          <p><i>IT Intern / Boston, MA / Summer 2012</i></p>
+                        </header>
+                        <ul>
+                          <li>
+                            compiled and reviewed security and exchange reports for cross-transactions between the Federal Reserve and the US Treasury.
+                          </li>
+                          </br>
+                          <li>
+                            created bash scripts to expedite manual work. Through use of keywords, diffs, and recalculation formulae to transform 8 hours of manual work to 30 minutes.
+                          </li>
+                          </br>
+                          <li>
+                            asked and obtained more work with organizing meetings between managers and departments for quarter reports.
+                          </li>
+                          </br>
+                          <li>
+                            trained and used Bloomberg Terminal to analyze and compile securities and State Street's subsidiary stocks.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article>
+                        <header>
+                          <h3><li>Boston College</i></h3>
+                          <p>Cores System Assistant / Boston, Ma / Summer 2011</p>
+                        </header>
+                        <ul>
+                          <li>
+                            worked in Boston College's IT department to perform backend duties of testing and solving technical holes.
+                          </li>
+                          </br>
+                          <li>
+                            debugged BC's Agora portal in Java along with SVN experience.
+                          </li>
+                          </br>
+                          <li>
+                            created BC's Diploma applet on the Agora portal with Struts 2 and Java.
+                          </li>
+                          </br>
+                          <li>
+                            contributed to compiling development documentation with the Redhat/Linux servers.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!-- work experience ends -->
+          <!-- project experience begins -->
+          <section id="page-project-experience" class="page-project-experience">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title"><span>Project Experience</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle"></p>
+              </header>
+              <table class="table table-striped table-hover" style="background: #fff;">
+                <tbody>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article class="experience">
+                        <header>
+                          <h3>UMass Parking Services</h3>
+                          <p><i>Ruby on Rails  Develope r/ Amherst, MA / 2015 - Current</i></p>
+                        </header>
+                        <p>
+                        <ul>
+                          <li>
+                            manages and creates features in Ruby on Rails for Parking Services' internal application: Garage Closings, Meter Audits, Permit Holder SMS, and more.
+                          </li>
+                          </br>
+                          <li>
+                            created a single page, Parking Pass Creator (in Sinatra), which has allocated a few thousand permits to date (since Sept 15).
+                          </li>
+                          </br>
+                          <li>
+                            implemented an online forum between Parking Enforcements and Parking admins to log Parking issues.
+                          </li>
+                          </br>
+                          <li>
+                            currently building an open source golf cart and inventory check application for VIPs for public reservation.
+                          </li>
+                          </br>
+                          <li>
+                            daily standups and weekly code reviews, in addition to Git/Slack communication between team members
+                          </li>
+                          </br>
+                          <li>
+                            agile development with regular feedback from customers and internal administrators.
+                          </li>
+                          </br>
+                          <li>
+                            emphasizes user friendliness, dynamic single page apps/features with JS, JQuery, or Ajax and stylized with Bootstrap and custom CSS.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article class="experience">
+                        <header>
+                          <h3>State Street Bank & Trust Co.</h3>
+                          <p><i>IT Intern / Boston, MA / Summer 2012</i></p>
+                        </header>
+                        <ul>
+                          <li>
+                            compiled and reviewed security and exchange reports for cross-transactions between the Federal Reserve and the US Treasury.
+                          </li>
+                          </br>
+                          <li>
+                            created bash scripts to expedite manual work. Through use of keywords, diffs, and recalculation formulae to transform 8 hours of manual work to 30 minutes.
+                          </li>
+                          </br>
+                          <li>
+                            asked and obtained more work with organizing meetings between managers and departments for quarter reports.
+                          </li>
+                          </br>
+                          <li>
+                            trained and used Bloomberg Terminal to analyze and compile securities and State Street's subsidiary stocks.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <div class="col-md-11 col-md-offset-1">
+                      <article>
+                        <header>
+                          <h3><li>Boston College</i></h3>
+                          <p>Cores System Assistant / Boston, Ma / Summer 2011</p>
+                        </header>
+                        <ul>
+                          <li>
+                            worked in Boston College's IT department to perform backend duties of testing and solving technical holes.
+                          </li>
+                          </br>
+                          <li>
+                            debugged BC's Agora portal in Java along with SVN experience.
+                          </li>
+                          </br>
+                          <li>
+                            created BC's Diploma applet on the Agora portal with Struts 2 and Java.
+                          </li>
+                          </br>
+                          <li>
+                            contributed to compiling development documentation with the Redhat/Linux servers.
+                          </li>
+                        </ul>
+                      </article>
+                    </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!-- project experience ends -->
+          <!-- contact begins -->
+          <section id="page-contact" class="page-contact">
+            <div class="container">
+              <header class="section-header">
+                <h2 class="section-title"><span>Contact</span></h2>
+                <div class="spacer"></div>
+                <p class="section-subtitle">Feel free to contact Oscar</p>
+              </header>
+              <div class="row">
+                <div class="col-sm-5 contact-info">
+                  <h3>Contact Info</h3>
+                  <p><i class="fa fa-map-marker"></i> Boston, MA </p>
+                  <p><i class="fa fa-phone"></i> 617-866-9081 </p>
+                  <p><i class="fa fa-envelope-o"></i> owlee@umass.edu </p>
+                </div>
+
+                <div class="col-sm-7">
+                  <h3>Get in Touch</h3>
+                  <!-- Configure the contact form by adding your email address on mail/contact_me.php line 17 -->
+                  <form class="form-horizontal" id="contactForm" novalidate>
+                    <div class="control-group">
+                      <label class="control-label" for="name">Name</label>
+                      <div class="controls">
+                        <input type="text" name="name" id="name" placeholder="Your name"
+                                                                 class="form-control input-lg" required
+                                                                 data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                      </div>
                     </div>
                     <div class="control-group">
-                        <label class="control-label" for="email">Email Address</label>
-                        <div class="controls">
-                            <input type="email" name="email" id="email" placeholder="Your email address"
-                                   class="form-control input-lg" required
-                                   data-validation-required-message="Please enter your email address.">
-                            <p class="help-block text-danger"></p>
-                        </div>
+                      <label class="control-label" for="email">Email Address</label>
+                      <div class="controls">
+                        <input type="email" name="email" id="email" placeholder="Your email address"
+                                                                    class="form-control input-lg" required
+                                                                    data-validation-required-message="Please enter your email address.">
+                        <p class="help-block text-danger"></p>
+                      </div>
                     </div>
                     <div class="control-group">
-                        <label class="control-label" for="message">Message</label>
-                        <div class="controls">
-                            <textarea name="message" id="message" rows="8" class="form-control input-lg" required
-                                      data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
+                      <label class="control-label" for="message">Message</label>
+                      <div class="controls">
+                        <textarea name="message" id="message" rows="8" class="form-control input-lg" required
+                                                                       data-validation-required-message="Please enter a message."></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
                     </div>
                     <div class="form-actions">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-default btn-lg btn-block">Submit Message</button>
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-default btn-lg btn-block">Submit Message</button>
                     </div>
-                </form>
-                <!-- End contact-form -->
+                  </form>
+                  <!-- End contact-form -->
+                </div>
+              </div>
+              <!-- End row -->
+
             </div>
-        </div>
-        <!-- End row -->
-
-    </div>
-</section>
-<!-- contact ends -->
+          </section>
+          <!-- contact ends -->
 
 
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/jquery.sticky.js"></script>
-<script src="js/jquery.easypiechart.min.js"></script>
-<script src="js/vegas.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-<script src="js/main.js"></script>
+          <script src="js/jquery-2.1.3.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/jquery.scrollTo.js"></script>
+          <script src="js/jquery.nav.js"></script>
+          <script src="js/jquery.sticky.js"></script>
+          <script src="js/jquery.easypiechart.min.js"></script>
+          <script src="js/vegas.js"></script>
+          <script src="js/jquery.isotope.min.js"></script>
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          <script src="js/waypoints.min.js"></script>
+          <script src="js/jqBootstrapValidation.js"></script>
+          <script src="js/contact_me.js"></script>
+          <script src="js/main.js"></script>
 
-</body>
+        </body>
 
-</html>
+        </html>

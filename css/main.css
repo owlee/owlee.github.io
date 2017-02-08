@@ -110,11 +110,19 @@ h1, h2, h3, h4, h5, h6 {
     background: #f7f7f7;
     text-align: center;
 }
-#page-education {
+#page-demo{
     padding: 75px 0;
     background: #fff;
 }
-#page-experience {
+#page-education {
+    padding: 75px 0;
+    background: #f7f7f7;
+}
+#page-work-experience {
+    padding: 75px 0;
+    background: #fff;
+}
+#page-project-experience {
     padding: 75px 0;
     background: #f7f7f7;
 }
@@ -131,7 +139,17 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    Portfolio
    ========================================================================== */
+.bottom-column {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
 
+.portfolio {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #3a9bdc;
+}
 #grid-controls-wrapper {
     text-align: center;
     float: none;
